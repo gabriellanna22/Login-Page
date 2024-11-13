@@ -103,7 +103,8 @@ label{
     transition: .5s ease;
 }
 
-input:focus ~ label{
+
+.label-active {
     top: 1px;
     font-size: .8em;
     background: var(--primary);
